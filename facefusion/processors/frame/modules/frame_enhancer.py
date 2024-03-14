@@ -56,28 +56,28 @@ MODELS : ModelSet =\
 	},
     'realesrgan-x4plus':
 	{
-		'url': 'https://github.com/net2cn/Real-ESRGAN_GUI/raw/master/Real-ESRGAN_GUI/models/realesrgan-x4plus.onnx',
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrgan-x4plus.onnx',
 		'path': resolve_relative_path('../.assets/models/realesrgan-x4plus.onnx'),
 		'size': (128, 8, 2),
 		'scale': 4
 	},
     'realesrgan-x4plus_anime_6B':
     {
-		'url': 'https://github.com/net2cn/Real-ESRGAN_GUI/raw/master/Real-ESRGAN_GUI/models/realesrgan-x4plus_anime_6B.onnx',
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrgan-x4plus_anime_6B.onnx',
 		'path': resolve_relative_path('../.assets/models/realesrgan-x4plus_anime_6B.onnx'),
 		'size': (128, 8, 2),
 		'scale': 4
 	},
     'realesrganv2-animevideo-xsx2':
     {
-		'url': 'https://github.com/net2cn/Real-ESRGAN_GUI/raw/master/Real-ESRGAN_GUI/models/realesrganv2-animevideo-xsx2.onnx',
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrganv2-animevideo-xsx2.onnx',
 		'path': resolve_relative_path('../.assets/models/realesrganv2-animevideo-xsx2.onnx'),
 		'size': (128, 8, 2),
 		'scale': 2
 	},
     'realesrganv2-animevideo-xsx4':
     {
-		'url': 'https://github.com/net2cn/Real-ESRGAN_GUI/raw/master/Real-ESRGAN_GUI/models/realesrganv2-animevideo-xsx4.onnx',
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrganv2-animevideo-xsx4.onnx',
 		'path': resolve_relative_path('../.assets/models/realesrganv2-animevideo-xsx4.onnx'),
 		'size': (128, 8, 2),
 		'scale': 4
