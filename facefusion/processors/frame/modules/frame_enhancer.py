@@ -55,6 +55,13 @@ MODELS : ModelSet =\
 		'size': (128, 8, 2),
 		'scale': 4
 	},
+	'real_hatgan_x4':
+	{
+		'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models/real_hatgan_x4.onnx',
+		'path': resolve_relative_path('../.assets/models/real_hatgan_x4.onnx'),
+		'size': (256, 8, 2),
+		'scale': 4
+	},
     'realesrgan-x4plus':
 	{
 		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrgan-x4plus.onnx',
