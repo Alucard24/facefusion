@@ -61,6 +61,13 @@ MODELS : ModelSet =\
 		'size': (128, 8, 2),
 		'scale': 4
 	},
+    'realesr-general-x4v3':
+    {
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.1/realesr-general-x4v3.onnx',
+		'path': resolve_relative_path('../.assets/models/realesr-general-x4v3.onnx'),
+		'size': (64, 8, 2),
+		'scale': 4
+	},
     'realesrgan-x4plus_anime_6B':
     {
 		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrgan-x4plus_anime_6B.onnx',
@@ -80,6 +87,13 @@ MODELS : ModelSet =\
 		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.0/realesrganv2-animevideo-xsx4.onnx',
 		'path': resolve_relative_path('../.assets/models/realesrganv2-animevideo-xsx4.onnx'),
 		'size': (128, 8, 2),
+		'scale': 4
+	},
+    'realesr-animevideov3':
+    {
+		'url': 'https://github.com/Alucard24/facefusion-assets/releases/download/v1.0.1/realesr-animevideov3.onnx',
+		'path': resolve_relative_path('../.assets/models/realesr-animevideov3.onnx'),
+		'size': (64, 8, 2),
 		'scale': 4
 	},
 	'span_kendata_x4':
