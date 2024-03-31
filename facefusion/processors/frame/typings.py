@@ -5,6 +5,7 @@ from facefusion.typing import Face, FaceSet, AudioFrame, VisionFrame
 FaceDebuggerItem = Literal['bounding-box', 'face-landmark-5', 'face-landmark-5/68', 'face-landmark-68', 'face-landmark-68/5', 'face-mask', 'face-detector-score', 'face-landmarker-score', 'age', 'gender']
 FaceEnhancerModel = Literal['codeformer', 'gfpgan_1.2', 'gfpgan_1.3', 'gfpgan_1.4', 'gpen_bfr_256', 'gpen_bfr_512', 'gpen_bfr_1024', 'gpen_bfr_2048', 'restoreformer_plus_plus']
 FaceSwapperModel = Literal['blendswap_256', 'inswapper_128', 'inswapper_128_fp16', 'simswap_256', 'simswap_512_unofficial', 'uniface_256']
+FrameColorizerModel = Literal['deoldify']
 FrameEnhancerModel = Literal['lsdir_x4', 'nomos8k_sc_x4', 'real_esrgan_x4',  'real_esrgan_x4_fp16', 'real_hatgan_x4', 'realesrgan-x4plus', 'realesr-general-x4v3', 'realesrgan-x4plus_anime_6B', 'realesrganv2-animevideo-xsx2', 'realesrganv2-animevideo-xsx4', 'realesr-animevideov3', 'span_kendata_x4']
 LipSyncerModel = Literal['wav2lip_gan']
 
@@ -22,6 +23,10 @@ FaceSwapperInputs = TypedDict('FaceSwapperInputs',
 {
 	'reference_faces' : FaceSet,
 	'source_face' : Face,
+	'target_vision_frame' : VisionFrame
+})
+FrameColorizerInputs = TypedDict('FrameColorizerInputs',
+{
 	'target_vision_frame' : VisionFrame
 })
 FrameEnhancerInputs = TypedDict('FrameEnhancerInputs',
